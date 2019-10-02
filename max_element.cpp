@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+	// taking input
 	int n;
 	cout<<"Enter number of elements"<<endl;
 	cin>>n;
@@ -12,6 +13,7 @@ int main()
 	cout<<"Enter elements"<<endl;
 	int a[n];
 
+	// using max function
 	int max_element = INT_MAX;
 	for(int i=0; i<n; i++)
 	{
