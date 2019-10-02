@@ -1,6 +1,8 @@
 // author : reclone_rk
 // algorithm name : kadane algorithm
 // code modified and optimized
+//code executed
+
  #include<stdio.h> 
 int maxSubArraySum(int a[], int size) 
 { 
