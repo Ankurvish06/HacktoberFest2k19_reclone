@@ -33,6 +33,7 @@ int maxSubArraySum(int a[], int size)
 
 int main() 
 { 
+	// taking input
 	int n;
 	printf("Enter number of elements\n");
 	scanf("%d", &n);
@@ -43,6 +44,7 @@ int main()
 	{
 		scanf("%d", &a[i]);
 	}
+	// passing array into maxsubarrray function
 	int max_sum = maxSubArraySum(a, n); 
 
 	printf("%d\n",max_sum);
