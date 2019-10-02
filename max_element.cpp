@@ -1,4 +1,5 @@
 // Author : reclone_rk
+// best algoritm in o(n)
 #include <bits/stdc++.h>
 using namespace std; 
 
