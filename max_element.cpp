@@ -14,14 +14,14 @@ int main()
 	int a[n];
 
 	// using max function
-	int max_element = INT_MAX;
+	int max_e = INT_MAX;
 	for(int i=0; i<n; i++)
 	{
 		cin>>a[i];
-		max_element = max(max_element,a[i]);
+		max_e = max(max_e,a[i]);
 	}
 
-	cout<<max_element<<endl;
+	cout<<max_e<<endl;
 	
 	return 0;
 }
